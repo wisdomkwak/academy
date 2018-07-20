@@ -36,6 +36,7 @@ public class AroundAdvice {
 		System.out.println("========> AroundAdvice의 before : 비지니스 메서드 수행 전 입니다.");
 		StopWatch sw = new StopWatch();
 		sw.start();
+		System.out.println("home2");
 		
 		//이 코드의 이전과 이후에 공통 기능을 위한 코드를 위치 시키면 됩니다.
 		//대상 객체의 메서드 public void setInsert(BoardVO b)를 호출합니다.

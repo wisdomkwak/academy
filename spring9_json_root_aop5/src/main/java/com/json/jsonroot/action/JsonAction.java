@@ -38,6 +38,7 @@ public class JsonAction {
 	public Object jsonTest3() throws Exception {
 		List<BoardVO> li = new ArrayList<BoardVO>();
 		li = service.selectall(); // select * from products order by id
+		System.out.println("home");
 		return li;
 	}
 
